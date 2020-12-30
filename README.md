@@ -15,9 +15,11 @@ Feel free to comment on the video and ask questions. I will try to answer any qu
 
 ## Instructions
 
-To run the Python Notebook you need to installed Jupyter Notebook instructions can be found here https://jupyter.org/install
+To run the Python Notebook you need to install Jupyter Notebook. Instructions can be found here https://jupyter.org/install
 
-Assembly language and complied with `AS02.EXE` the following command will output a S19 file but you need to add text `S9` at the end of the file on a line by itself so that it loads seamlessly into the SWPTC 6800
+Assembly language was complied with `AS02.EXE` written by Frank A. Kingswood. A link to the assembler compiler is here http://www.kingswood-consulting.co.uk/assemblers/
+
+ The following command will output a S19 file but you need to add text `S9` at the end of the file on a line by itself so that it loads seamlessly into the SWPTC 6800
 
 ```
 as02 -l -c -s -v play68-pwm.asm
