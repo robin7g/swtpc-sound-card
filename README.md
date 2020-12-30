@@ -15,11 +15,18 @@ Feel free to comment on the video and ask questions. I will try to answer any qu
 
 ## Instructions
 
+### Python code
 To run the Python Notebook you need to install Jupyter Notebook. Instructions can be found here https://jupyter.org/install
 
+You will also need a few python libraries. Here is how to install them
+```python
+pip3 install numpy matplotlib soundfile samplerate
+```
+
+### Assembly Language
 Assembly language was complied with `AS02.EXE` written by Frank A. Kingswood. A link to the assembler compiler is here http://www.kingswood-consulting.co.uk/assemblers/
 
- The following command will output a S19 file but you need to add text `S9` at the end of the file on a line by itself so that it loads seamlessly into the SWPTC 6800
+ The following command will output a S19 file but you need to add the text `S9` at the end of the file on a line by itself so that it loads seamlessly into the SWPTC 6800
 
 ```
 as02 -l -c -s -v play68-pwm.asm
